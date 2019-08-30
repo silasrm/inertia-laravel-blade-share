@@ -1,0 +1,29 @@
+{
+    "name": "frogbob/inertia-laravel-blade-share",
+    "description": "Provides data for common blade-directives from laravel to internia-vue",
+    "type": "laravel-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Freerk van Zeijl",
+            "email": "freerk.vz@googlemail.com"
+        }
+    ],
+    "require": {
+        "illuminate/support": "5.5.*",
+        "inertiajs/inertia-laravel": "^0.1.2",
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Frogbob\\InertiaLaravelBladeShare\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Frogbob\\InertiaLaravelBladeShare\\InertiaLaravelBladeShareServiceProvider"
+            ]
+        }
+    },
+}
